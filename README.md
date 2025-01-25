@@ -1,10 +1,20 @@
+# Production link
 
-# Local setup
+https://community-page-react.vercel.app/
+
+# To run locally
 
 - Clone the repo locally
   `git clone git@github.com:thebishalniroula/community-page-react.git`
+- Run `cd community-page-react`
 - Run `pnpm install`
 - Run `pnpm start`
+
+# To setup development
+
+- Run `git config core.hooksPath .githooks`
+- Run `chmod +x .githooks/prepare-commit-msg`
+- And you are all set to go.
 
 # Design inspiration
 
