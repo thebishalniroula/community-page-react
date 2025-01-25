@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Running pnpm run format before preparing the commit message..."
+
+# Run the formatting command
+pnpm run format
+
+# Check if the formatting command was successful
+if [ $? -ne 0 ]; then
+  echo "Formatting failed. Please fix formatting issues before committing."
+  exit 1
+fi
+
+# Proceed to the commit message preparation
+exit 0
